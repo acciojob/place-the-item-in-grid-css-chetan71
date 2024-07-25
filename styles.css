@@ -1,5 +1,10 @@
 .holder{
 	display: grid;
-	grid-template-columns: 1fr 1fr;
+	grid-template-columns: repeat(2, 1fr);
+	grid-template-rows: repeat(2, 1fr);
+}
+.item{
+	width: 200px;
+	height: 200px;
 	
 }
